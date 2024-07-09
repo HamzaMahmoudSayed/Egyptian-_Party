@@ -1,0 +1,183 @@
+html,
+body {
+    scroll-behavior: auto !important;
+}
+
+header {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+header .content {
+    color: white;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#openLeftMenu {
+    font-size: 30px;
+    cursor: pointer;
+    left: 0;
+    top: 340px;
+}
+
+
+#closeBtn {
+    right: 25px;
+    padding: 35px 10px 10px 32px;
+    font-size: 36px;
+    top: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#closeBtn:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+#leftMenu {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    color: white;
+    bottom: 0;
+    width: 250px;
+}
+
+#leftMenu a {
+    display: block;
+    width: 250px;
+    color: white;
+    font-size: 25px;
+    padding: 20px 8px 20px 32px;
+    transition: 0.3s;
+}
+
+#leftMenu a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.myAccordion {
+    margin-top: 95px;
+}
+
+.myAccordion .content h3 {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.myAccordion .content {
+    background-color: rgb(230, 130, 133);
+}
+
+.myAccordion .content p {
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 0px;
+    padding: 10px;
+    display: none;
+}
+
+.myAccordion .content .special {
+    display: block;
+}
+
+#count {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#count .container {
+    padding-block: 100px;
+}
+
+#count .tim {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#contact-us {
+    margin-top: 190px;
+}
+
+#contact-us .title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#contact-us .title p {
+    font-weight: 300;
+}
+
+#contact-us .content>span {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#contact-us .content p {
+    font-weight: 400;
+    color: RGB(119, 119, 119);
+    margin-top: 5px;
+}
+
+.icons i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+
+.icons i:hover {
+    color: white;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+textarea {
+    resize: vertical;
+    height: 200px;
+}
+
+#contact-us button {
+    background-color: rgb(214, 46, 51);
+}
+
+#backToTop {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(214, 46, 51);
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.num {
+    font-size: 20px;
+}
