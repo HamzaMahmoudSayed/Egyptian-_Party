@@ -181,3 +181,8 @@ textarea {
 .num {
     font-size: 20px;
 }
+
+.btn-teal {
+    background-color: teal !important;
+    text-transform: uppercase;
+}

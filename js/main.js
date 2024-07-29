@@ -70,14 +70,24 @@ function countDownToTime(date) {
 }
 
 
-$("textarea").keyup(function () {
+
+$("textarea").keyup(function (e) {
     let value = $(this).val().length
     let maxLength = 100
     let result = maxLength - value
     if (result == 0 || result < 0) {
+
         $(".num").text("your available character finished")
+        $("textarea").attr("disabled", "disabled")
     } else {
         $(".num").text(result)
     }
 
+})
+
+$(".btnReset").on("click", function () {
+    $("form input").val("")
+    $("form textarea").val("")
+    $("textarea").attr("disabled", false)
+    $(".num").text("100")
 })
